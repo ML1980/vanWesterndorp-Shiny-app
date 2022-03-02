@@ -87,16 +87,7 @@ server <- function(input, output, session) {
     #    head(mydata(), input$n)
     #})
     
-    #data with filter
-    #initial_df <- mydata()
-    #initial_df$manuf <- sapply(strsplit(rownames(initial_df), " "), "[[", 1)
-    #in_react_frame<-reactiveVal(initial_df)
-    #filtered_frame <-  reactive({
-    #    frame <- req(in_react_frame())
-    #    indexes <- req(input$table_rows_all)
-    #    
-    #    frame[indexes,]
-    #})
+  
     output$head <- renderDT(mydata(),
                             filter = "top",
                             options = list(
