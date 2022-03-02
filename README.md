@@ -1,7 +1,7 @@
 # vanWesterndorp-Shiny-app
 Make plots for vanWesterndorp analysis.
 
-Please check HELP i app.
+Please check HELP in app.
 
 Data in csv must contain column toocheap, cheap, expensive, tooexpensive.
 You can set heading of plot, label of currency, place of label of point PMC and PME.
